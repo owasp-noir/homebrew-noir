@@ -5,8 +5,8 @@
 class Noir < Formula
   desc "Attack surface detector that identifies endpoints by static analysis"
   homepage "https://github.com/noir-cr/noir"
-  url "https://github.com/noir-cr/noir/archive/refs/tags/v0.15.1.tar.gz"
-  sha256 "06b8d1a2dc80580e7116bc14d607d0a036aae02784ecf77d119b499f3237958a"
+  url "https://github.com/noir-cr/noir/archive/refs/tags/v0.16.0.tar.gz"
+  sha256 "fb523ccec493ed6cfc590e0436de6754aea4d2cbf17b64b9df8a5babd095116d"
   license "MIT"
 
   depends_on "crystal"
