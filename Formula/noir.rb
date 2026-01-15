@@ -5,16 +5,16 @@
 class Noir < Formula
   desc "Hunt every endpoint in your code, expose shadow apis, map the attack surface"
   homepage "https://github.com/owasp-noir/noir"
-  url "https://github.com/owasp-noir/noir/archive/refs/tags/v0.26.0.tar.gz"
-  sha256 "89da1991fc99c1bc2d71d10fc7d3c2a329ef89aa98c39194b714df9a85ac4bd5"
+  url "https://github.com/owasp-noir/noir/archive/refs/tags/v0.27.0.tar.gz"
+  sha256 "e8a4838f811acda647bf0958ea1f5ee5fdf83fc6cecb81f59964cc87794ad204"
   license "MIT"
 
   depends_on "crystal"
 
   def install
     system "shards install"
-system "shards build --release --no-debug --production"
-bin.install "bin/noir"
+    system "shards build --release --no-debug --production"
+    bin.install "bin/noir"
   end
 
   test do
