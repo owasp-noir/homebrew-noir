@@ -5,8 +5,8 @@
 class Noir < Formula
   desc "Hunt every endpoint in your code, expose shadow apis, map the attack surface"
   homepage "https://github.com/owasp-noir/noir"
-  url "https://github.com/owasp-noir/noir/archive/refs/tags/v0.29.0.tar.gz"
-  sha256 "fd82153f00997035d3ebc5f9e6429383c1a93b045a10ea87c9eebb0041cb9967"
+  url "https://github.com/owasp-noir/noir/archive/refs/tags/v0.29.1.tar.gz"
+  sha256 "a7e3703d71acc0736effe71d3b7ee973ce0f49d03546501bd3e354f2bcf40065"
   license "MIT"
 
   depends_on "crystal"
